@@ -1,9 +1,9 @@
 $fn=90;
 
 module body() {
-    cube([20,40,3]);
-    translate([2,0,0])
-        cube([16,40,7]);
+    cube([17,30,2]);
+    translate([2.5,0,0])
+        cube([12,30,5]);
 }
 
 module nut() {
@@ -16,6 +16,6 @@ module nut() {
 
 difference() {
 body();
-translate([15.5,25.4,0])
+translate([14,21,0])
     nut();
 }
